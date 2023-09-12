@@ -12,6 +12,8 @@ function add(){
      document.write(`<h1>part one :</h1>`)
     document.write(`<p>the result of sum numbers even are : ${result_even}</p>`);
     document.write(`<p>the result of sum first five indexes are : ${sum_index}</p>`);
+    console.log(`the result of sum numbers even are : ${result_even}`);
+    console.log(`the result of sum first five indexes are : ${sum_index}`);
 }
 
 add();
@@ -52,6 +54,16 @@ document.write(`<p>my number is : ${ob.number}</p>`)
 document.write(`<p>my age is : ${ob.age}</p>`)
 document.write(`<p>my email is : ${ob.email}</p>`)
 document.write(ob)
+
+
+console.log(ob);
+console.log(ob.name);
+console.log(ob.age);
+console.log(ob.email);
+console.log(ob.number);
+
+
+
 
 
 // function a(n){
